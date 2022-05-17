@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "ASPNETCore3.1-Kafka\WebAPI.csproj", "{E36C15F6-1C94-4379-9420-CCA695F50E87}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ASPNETCore3.1-Kafka.Application.Core", "ASPNETCore3.1-Kafka.Application.Core", "{89ACF5D0-87FE-4B96-8665-733BF263BE0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ASPNETCore3.1-Kafka.Application.Domain", "ASPNETCore3.1-Kafka.Application.Domain", "{92C8B320-BC7E-44D2-BC3A-5BAFD061BDA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{D21C92D6-AC83-490A-B510-D2A05164E53C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E36C15F6-1C94-4379-9420-CCA695F50E87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E36C15F6-1C94-4379-9420-CCA695F50E87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E36C15F6-1C94-4379-9420-CCA695F50E87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E36C15F6-1C94-4379-9420-CCA695F50E87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D21C92D6-AC83-490A-B510-D2A05164E53C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D21C92D6-AC83-490A-B510-D2A05164E53C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D21C92D6-AC83-490A-B510-D2A05164E53C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D21C92D6-AC83-490A-B510-D2A05164E53C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E36C15F6-1C94-4379-9420-CCA695F50E87} = {89ACF5D0-87FE-4B96-8665-733BF263BE0A}
+		{D21C92D6-AC83-490A-B510-D2A05164E53C} = {92C8B320-BC7E-44D2-BC3A-5BAFD061BDA6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F929D503-1AF3-43CF-AD86-1FED6E9752C7}
+	EndGlobalSection
+EndGlobal
