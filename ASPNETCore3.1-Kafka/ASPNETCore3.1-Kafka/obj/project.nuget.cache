@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6DDn7rb/4oMy/A9eBFKaF7DTHHqlc8zDOpZ9OkzEKQQtn8JDJGaoKDGLqrn/0NqGPToPxEy3dsMVmz9hczBbbw==",
+  "dgSpecHash": "eNXX3RxYpSx+M6Pcc1f97+O3XOY0A0JpNhnUvdIpvEHiHvU459SriySrw5M3QScYU0TnNTvVNbYIX47H1c6AGg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Kafka-Dotnet-Producer\\ASPNETCore3.1-Kafka\\ASPNETCore3.1-Kafka\\WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\mateu\\@projetos\\Kafka-Dotnet-Producer\\ASPNETCore3.1-Kafka\\ASPNETCore3.1-Kafka\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mateu\\.nuget\\packages\\confluent.kafka\\1.4.3\\confluent.kafka.1.4.3.nupkg.sha512",
     "C:\\Users\\mateu\\.nuget\\packages\\librdkafka.redist\\1.4.2\\librdkafka.redist.1.4.2.nupkg.sha512",

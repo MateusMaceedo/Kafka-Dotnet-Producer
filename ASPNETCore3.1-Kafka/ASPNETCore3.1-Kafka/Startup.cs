@@ -48,7 +48,6 @@ namespace ASPNETCore3._1_Kafka
                                           .AllowAnyOrigin()
                                           .AllowAnyHeader());
 
-            // Ativando middlewares para uso do Swagger
             app.UseSwagger();
             app.UseSwaggerUI(c => {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Ações - Testes - Apache Kafka");

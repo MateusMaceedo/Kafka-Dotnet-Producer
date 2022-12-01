@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lhKkqLj+pdLPUWFpVpvQX2A8fh71UkcafRgl5y5lEOXE/dulacg4W7aSXq6WT/77DHGJDhDYV6vn0EsxGQcgnA==",
+  "dgSpecHash": "6RAmbGL1nqKFxrRT6VvjD8Rb+JuW4nQJ4GFrf7F1WO4dKS58sK0A18nkLvo97OQDXOj960HwKPHwx+7Xt+gf3g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Kafka-Dotnet-Producer\\ASPNETCore3.1-Kafka\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\mateu\\@projetos\\Kafka-Dotnet-Producer\\ASPNETCore3.1-Kafka\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

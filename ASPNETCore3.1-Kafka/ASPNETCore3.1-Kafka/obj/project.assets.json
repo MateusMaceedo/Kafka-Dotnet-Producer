@@ -9,10 +9,14 @@
           "librdkafka.redist": "1.4.2"
         },
         "compile": {
-          "lib/netcoreapp2.1/Confluent.Kafka.dll": {}
+          "lib/netcoreapp2.1/Confluent.Kafka.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netcoreapp2.1/Confluent.Kafka.dll": {}
+          "lib/netcoreapp2.1/Confluent.Kafka.dll": {
+            "related": ".xml"
+          }
         }
       },
       "librdkafka.redist/1.4.2": {
@@ -105,10 +109,14 @@
       "Microsoft.OpenApi/1.1.4": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Swashbuckle.AspNetCore/5.4.1": {
@@ -129,10 +137,14 @@
           "Microsoft.OpenApi": "1.1.4"
         },
         "compile": {
-          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.dll": {}
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.dll": {}
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.dll": {
+            "related": ".xml"
+          }
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
@@ -144,10 +156,14 @@
           "Swashbuckle.AspNetCore.Swagger": "5.4.1"
         },
         "compile": {
-          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {}
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {}
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {
+            "related": ".xml"
+          }
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
@@ -156,10 +172,14 @@
       "Swashbuckle.AspNetCore.SwaggerUI/5.4.1": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {
+            "related": ".xml"
+          }
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
@@ -402,24 +422,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mateu\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\mateu\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Kafka-Dotnet-Producer\\ASPNETCore3.1-Kafka\\ASPNETCore3.1-Kafka\\WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\mateu\\@projetos\\Kafka-Dotnet-Producer\\ASPNETCore3.1-Kafka\\ASPNETCore3.1-Kafka\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Kafka-Dotnet-Producer\\ASPNETCore3.1-Kafka\\ASPNETCore3.1-Kafka\\WebAPI.csproj",
+      "projectPath": "C:\\Users\\mateu\\@projetos\\Kafka-Dotnet-Producer\\ASPNETCore3.1-Kafka\\ASPNETCore3.1-Kafka\\WebAPI.csproj",
       "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Kafka-Dotnet-Producer\\ASPNETCore3.1-Kafka\\ASPNETCore3.1-Kafka\\obj\\",
+      "outputPath": "C:\\Users\\mateu\\@projetos\\Kafka-Dotnet-Producer\\ASPNETCore3.1-Kafka\\ASPNETCore3.1-Kafka\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\mateu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -433,8 +448,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Kafka-Dotnet-Producer\\ASPNETCore3.1-Kafka\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\mateu\\OneDrive\\Área de Trabalho\\Impulsiona\\Kafka-Dotnet-Producer\\ASPNETCore3.1-Kafka\\Domain\\Domain.csproj"
+            "C:\\Users\\mateu\\@projetos\\Kafka-Dotnet-Producer\\ASPNETCore3.1-Kafka\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\mateu\\@projetos\\Kafka-Dotnet-Producer\\ASPNETCore3.1-Kafka\\Domain\\Domain.csproj"
             }
           }
         }
@@ -464,7 +479,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -476,7 +492,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
